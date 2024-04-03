@@ -14,8 +14,8 @@ export default function Navbar() {
       <div className="text-3xl ">Nathapon Tansit</div>
 
       {/* mobile display */}
-      <div className="relative">
-        <button className="lg:hidden" onClick={toggleMenu}>
+      <div className="relative ">
+        <button className="flex lg:hidden " onClick={toggleMenu}>
           <img src={hamburger} />
         </button>
         {isMenuOpen && (
