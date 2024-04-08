@@ -3,3 +3,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  section {
+    @apply pt-[4vh] h-[96vh] mx-40 box-border min-h-fit;
+  }
+  p {
+    @apply text-gray-600;
+  }
+}

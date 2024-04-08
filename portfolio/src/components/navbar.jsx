@@ -19,7 +19,7 @@ export default function Navbar() {
           <img src={hamburger} />
         </button>
         {isMenuOpen && (
-          <div className="absolute right-0 mt-2 w-48 bg-white rounded-md overflow-hidden shadow-xl z-10">
+          <div className="absolute right-0 mt-2 w-48 bg-white rounded-md overflow-hidden shadow-xl z-10 lg:hidden">
             <a
               href="#about"
               className="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 transition duration-150 ease-in-out"
