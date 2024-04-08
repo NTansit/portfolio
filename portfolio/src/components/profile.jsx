@@ -4,7 +4,7 @@ import linkedinPic from "../assets/linkedin.png";
 
 export default function Profile() {
   return (
-    <section className="flex flex-col md:flex-row justify-center items-center h-[80vh] gap-10 xl:gap-20">
+    <section className="flex flex-col md:flex-row justify-center items-center h-[80vh] gap-10 xl:gap-20 mx-10 xl:mx-[160px]">
       <div className="flex aspect-square h-[300px] w-[300px] md:h-[400px] md:w-[400px] ">
         <img
           className="rounded-full"
@@ -14,7 +14,7 @@ export default function Profile() {
       </div>
       <div className="text-center ">
         <p className="font-semibold">Hello, I'm</p>
-        <h1 className="text-3xl xl:text-5xl font-bold leading-[72px]">
+        <h1 className="text-3xl leading-[48px] font-bold xl:text-5xl xl:leading-[72px]">
           Nathapon Tansit
         </h1>
         <p className="text-xl xl:text-3xl mb-4 leading-[42px] font-semibold">

@@ -10,7 +10,7 @@ export default function Navbar() {
   console.log(isMenuOpen);
 
   return (
-    <nav className="flex justify-between items-center h-24 mx-10 xl:mx-[160px]">
+    <nav className="flex justify-between items-center h-[17vh] mx-10 xl:mx-[160px]">
       <div className="text-3xl ">Nathapon Tansit</div>
 
       {/* mobile display */}
